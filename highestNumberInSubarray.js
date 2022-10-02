@@ -4,7 +4,7 @@ let n = arr.legth;
 let w = 3;
 let result = [];
 
-for(currentWindow =0; currentWindow<arr.legth-w+1; currentWindow++){    
+for(let currentWindow =0; currentWindow<arr.legth-w+1; currentWindow++){    
     let max = arr[currentWindow];
 for(let i=currentWindow; i<currentWindow+w; i++){
     if(max<arr[i]){
@@ -13,7 +13,7 @@ for(let i=currentWindow; i<currentWindow+w; i++){
 
 };
 
-    result.push(max)
+    result.push(max) 
 }
 
 console.log(result)

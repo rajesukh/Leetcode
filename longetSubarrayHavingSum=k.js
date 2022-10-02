@@ -5,7 +5,7 @@ let data3= [];
 
 for(let i=0;i<data.length; i++){
     data3[i]=data[i];
-};
+};  
 
 
 for(let i=0;i<data2.length; i++){
