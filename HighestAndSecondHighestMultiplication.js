@@ -1,5 +1,5 @@
 let arr = [5, 1, 2, 42, 5, 2, 3, 6, 2, 1, 5, 6, 3, 2, -3, -2, 5]
-function bubbleSort() {
+function bubbleSort(arr) {
     for (let i = arr.length; i > 0; i--) {
         for (j = 0; j < i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -9,6 +9,8 @@ function bubbleSort() {
     }
     return arr;
 }
+
+
 function multiPlication(arr) {
     let highest = arr.length;
     let secondHighest = arr.length - 1;
