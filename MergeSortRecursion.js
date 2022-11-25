@@ -1,4 +1,4 @@
-let arr = [5,9,5,8,1,4,3,2]
+let arr = [5,9,5,8,1,4,3,2,-5,-50]
 
 function mergeSorting(arr){
 if(arr.length<2){

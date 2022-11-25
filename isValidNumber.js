@@ -1,4 +1,4 @@
-let arr = [1,2,3,4,5,'l','o','r']
+let arr = [1,2,3,4,5]
 
 function isValidNumber (arr){
 
